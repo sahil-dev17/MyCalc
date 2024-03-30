@@ -1,0 +1,49 @@
+
+h1{
+    font-family: "Dancing Script", cursive;
+}
+
+
+body{
+    background-image: url(816dfd710806e20aa40a7cd8c76d2e2d.jpg);
+
+}
+button{
+  width: 50px;
+  height: 50px;  
+  border-radius:50px ;
+  border: none;
+  background-color: grey;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    padding: 25px;
+}
+.conatiner{
+    max-width: 500px;
+    overflow: hidden;
+}
+button:hover{
+background-color:  silver;
+}
+button:active{
+    background-color: whitesmoke;
+}
+.operator{
+background-color: hsl(39, 100%, 50%);
+}
+.operator:hover{
+    background-color: hsl(45, 100%, 50%);
+}
+.operator:active{
+    background-color: hsl(43, 31%, 52%);
+}
+input{
+    font-size: 25px;
+}
+
